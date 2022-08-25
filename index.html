@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Expo Emprendedor Jujuy</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <div class="container">
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#evento">El evento</a></li>
+            <li><a href="#registro">Registrate</a></li>
+          </ul>
+          <a href="#showcase"
+            ><img src="./assets/logo_circular.png" alt="showcase"
+          /></a>
+        </div>
+      </nav>
+
+      <div id="showcase">
+        <div class="half-box">
+          <h1 class="titulo">Expo Emprendedor Jujuy</h1>
+          <h2 class="subtitulo">Juntos potenciamos el comercio jujeño</h2>
+          <p>
+            El Ministerio de Desarrollo Económico y Productivo de la provincia
+            de Jujuy prepara para el próximo 6, 7 y 8 de septiembre la 13º
+            edición de la iniciativa que nuclea a la cultura emprendedora en su
+            conjunto.
+          </p>
+        </div>
+        <div class="half-box">
+          <img src="https://picsum.photos/id/633/600/400" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="evento">
+        <div class="videoEvento half-box">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/SyuQzV8YaHk"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div id="descripcion-evento" class="half-box">
+          <h2>El evento</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            nobis pariatur velit, repellendus explicabo suscipit, laudantium,
+            cum facere recusandae veniam quo tempora animi fuga asperiores
+            ratione molestiae accusantium? Incidunt, sequi? Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Saepe accusamus quibusdam
+            quam expedita sapiente aliquam dicta sunt porro voluptas, quia
+            veritatis qui, consequuntur maiores reprehenderit dolorum labore
+            minima tempore ab!
+          </p>
+        </div>
+      </section>
+
+      <section id="nosotros">
+        <div class="half-box">
+          <h2>Nosotros</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            ullam possimus aliquam voluptatum dignissimos tempora culpa
+            consequatur odio soluta? Sint voluptatum hic maiores earum
+            consequuntur, qui ratione nisi atque molestiae. Lorem ipsum, dolor
+            sit amet consectetur adipisicing elit. Porro iusto inventore vero
+            illo in, eius dolore consequuntur, cumque sapiente nostrum officiis
+            non qui explicabo ducimus commodi totam culpa doloribus eum.
+          </p>
+        </div>
+        <div class="half-box">
+          <img src="https://picsum.photos/id/823/600/400" alt="" />
+        </div>
+      </section>
+
+      <section id="registro">
+        <div id="texto-registro" class="half-box texto-registro">
+          <h2 id="subtituloRegistro">
+            Sumate al evento para potenciar el comercio local
+          </h2>
+          <p id="parrafoRegistro">Luego te contactaremos</p>
+        </div>
+        <div class="formularioRegistro half-box">
+          <form id="formulario">
+            <div class="form-group">
+              <label for="emprendimiento">Emprendimiento</label>
+              <input id="emprendimiento" class="form-control" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="titular">Titular del emprendimiento</label>
+              <input id="titular" class="form-control" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="celular">Celular</label>
+              <input id="celular" class="form-control" type="tel" />
+            </div>
+            <div class="form-group">
+              <label for="celular">Email</label>
+              <input id="email" class="form-control" type="email" />
+            </div>
+            <button id="enviar" class="btn btn-light">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="weather">
+        <div class="display">
+          <h2 class="tituloweather">Clima en Ciudad Cultural</h2>
+          <p class="ciudad"></p>
+          <p class="temperatura"></p>
+          <p class="tiempo"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2 id="subtituloWhats">
+        Por cualquier duda comunicate con nosotros a través de
+      </h2>
+      <div>
+        <a href="https://wa.me/5493885111111"
+          ><img id="iconoWhats" src="./assets/WhatsApp.png" alt="iconoWhats"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
