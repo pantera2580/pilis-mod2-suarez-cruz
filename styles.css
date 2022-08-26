@@ -1,16 +1,10 @@
-/*
-#1E3888
-#47A8BD
-#F5E663
-#FFAD69
-#9C3848
- */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 html, body {
     margin: 0px 0px 0px 0px;
     background-color: #9C3848;
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 header {
     background-color: #1E3888;
